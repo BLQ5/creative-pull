@@ -1,0 +1,11 @@
+# {# wf_auto_generated #}
+# {# wf_template: src/templates/tags/tag_toc.yaml #}
+# ATTENTION - This file is auto-generated, changes must be made to the template!
+
+toc:
+- title: Tags
+  path: /web/{{section}}/tags/
+  alternate_paths:
+{{#each tags}}
+  - /web/{{../section}}/tags/{{this}}
+{{/each}}

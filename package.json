@@ -1,0 +1,78 @@
+{
+  "name": "WebFundamentals",
+  "version": "2.0.0",
+  "description": "Google Web Fundamentals",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google/WebFundamentals.git"
+  },
+  "keywords": [
+    "web",
+    "fundamentals"
+  ],
+  "bugs": {
+    "url": "https://github.com/google/WebFundamentals/issues"
+  },
+  "homepage": "https://github.com/google/WebFundamentals",
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-config-google": "^0.9.1",
+    "gulp-remark": "^3.0.0",
+    "gulp-replace": "^1.0.0",
+    "husky": "^0.14.3",
+    "inquirer": "^3.3.0",
+    "jsdoc-baseline": "^0.1.5",
+    "workbox-build": "^5.1.2"
+  },
+  "private": true,
+  "dependencies": {
+    "@google-cloud/translate": "^2.1.2",
+    "chalk": "^1.1.3",
+    "commander": "^2.19.0",
+    "del": "^2.2.2",
+    "fs-extra": "^4.0.1",
+    "github": "^8.1.1",
+    "glob": "^7.1.2",
+    "globule": "^1.0.0",
+    "googleapis": "^31.0.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "handlebars": "^4.0.5",
+    "handlebars-helpers": "0.8.4",
+    "js-yaml": "^3.6.1",
+    "jsdoc": "^3.5.5",
+    "jsonschema": "^1.2.0",
+    "marked": "^0.3.6",
+    "mdast-util-to-string": "^1.0.2",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.14.1",
+    "parse-diff": "^0.4.0",
+    "remark": "^6.2.0",
+    "remark-html": "^5.1.0",
+    "remark-lint": "^5.4.0",
+    "remote-git-tags": "^2.0.0",
+    "request": "^2.83.0",
+    "require-dir": "^0.3.0",
+    "rsync": "^0.5.0",
+    "run-sequence": "^1.2.2",
+    "semver": "^5.4.1",
+    "unist-util-generated": "^1.1.0",
+    "unist-util-visit": "^1.1.1",
+    "vfile": "^2.0.1"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "start": "./start-appengine.sh",
+    "test": "gulp test",
+    "precommit": "gulp update-updated_on",
+    "prepush": "npm test",
+    "prestart": "gulp build",
+    "postinstall": "gulp post-install"
+  }
+}

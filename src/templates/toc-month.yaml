@@ -1,0 +1,16 @@
+# {# wf_auto_generated #}
+# {# wf_template: src/templates/toc-month.yaml #}
+# ATTENTION - This file is auto-generated, changes must be made to the template!
+toc:
+- title: "{{{title}}}"
+  section:
+  - title: "All Articles"
+    path: /web/{{section}}/{{year}}/
+{{#each months}}
+  - title: "{{{title}}}"
+    section:
+    {{#each articles}}
+    - title: "{{{title}}}"
+      path: {{url}}
+    {{/each}}
+{{/each}}

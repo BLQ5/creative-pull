@@ -1,0 +1,233 @@
+# ATTENTION - changes made to this file not in GitHub will be over written!
+
+redirects:
+
+- from: /web/chrome-devtools
+  to: /web/tools/chrome-devtools
+
+- from: /web/feed.xml
+  to: /web/fundamentals/rss.xml
+
+- from: /web/fundamentals/resources/contributors/
+  to: /web/resources/contributors/
+
+- from: /web/fundamentals/resources/example-article/
+  to: /web/resources/styleguide/sample-article
+
+- from: /web/update
+  to: /web/updates/
+
+- from: /web/android
+  to: /web/android/
+
+- from: /web/starter-kit/...
+  to: /web/tools/starter-kit/...
+
+- from: /web/fundamentals/resources/...
+  to: /web/resources/
+
+- from: /web/g-co/twa
+  to: /web/android/trusted-web-activity/
+
+#
+# Redirects for content migrated to web.dev
+#
+## Redirects for Fundamentals content migrated to web.dev
+
+- from: /web/billions/...
+  to: https://web.dev/
+
+- from: /web/feedback/...
+  to: https://web.dev/how-to-file-a-good-bug/
+
+- from: /web/fundamentals/performance/resource-prioritization
+  to: https://web.dev/fast/#prioritize-resources
+
+- from: /web/fundamentals/performance/why-performance-matters
+  to: https://web.dev/why-speed-matters/
+
+- from: /web/fundamentals/accessibility/accessible-styles
+  to:  https://web.dev/accessible/#create-a-design-and-css-that-supports-users-with-different-needs
+
+- from: /web/fundamentals/design-and-ux/responsive
+  to: https://web.dev/responsive-web-design-basics/
+
+- from: /web/fundamentals/design-and-ux/typography/variable-fonts
+  to: https://web.dev/variable-fonts/
+
+- from: /web/fundamentals/discovery/search-optimization
+  to: https://web.dev/lighthouse-seo/
+
+- from: /web/fundamentals/engage-and-retain/app-install-banners/...
+  to: https://web.dev/customize-install/
+
+- from: /web/fundamentals/engage-and-retain/web-app-manifest/...
+  to: https://web.dev/add-manifest/
+
+- from: /web/fundamentals/instant-and-offline/web-storage/cache-api
+  to: https://web.dev/cache-api-quick-guide/
+
+- from: /web/fundamentals/instant-and-offline/web-storage/offline-for-pwa
+  to: https://web.dev/storage-for-the-web/
+
+- from: /web/fundamentals/payments/payment-apps-developer-guide/android-payment-apps
+  to: https://web.dev/android-payment-apps-developers-guide/
+
+- from: /web/fundamentals/payments/payment-apps-developer-guide/web-payment-apps
+  to: https://web.dev/web-based-payment-apps-overview/
+
+- from: /web/fundamentals/performance/rail
+  to:  https://web.dev/rail/
+
+- from: /web/fundamentals/performance/lazy-loading-guidance/images-and-video
+  to: https://web.dev/fast/#lazy-load-images-and-video
+
+- from: /web/fundamentals/performance/optimizing-content-efficiency/http-caching
+  to: https://web.dev/http-cache/
+
+- from: /web/fundamentals/performance/optimizing-content-efficiency/image-optimization
+  to: https://web.dev/fast/#optimize-your-images
+
+- from: /web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization
+  to: https://web.dev/fast/#optimize-webfonts
+
+- from: /web/fundamentals/performance/prpl-pattern
+  to: https://web.dev/apply-instant-loading-with-prpl/
+
+- from: /web/fundamentals/performance/user-centric-performance-metrics
+  to: https://web.dev/user-centric-performance-metrics/
+
+- from: /web/fundamentals/primers/promises
+  to: https://web.dev/promises
+
+- from: /web/fundamentals/security/encrypt-in-transit/why-https
+  to: https://web.dev/why-https-matters
+
+- from: /web/fundamentals/performance/get-started/measuringperf-2
+  to: https://web.dev/how-to-measure-speed
+
+- from: /web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video
+  to: https://web.dev/replace-gifs-with-videos
+
+- from: /web/fundamentals/performance/optimizing-content-efficiency/automating-image-optimization
+  to: https://web.dev/fast/#optimize-your-images
+
+- from: /web/fundamentals/performance/optimizing-javascript/code-splitting
+  to: https://web.dev/reduce-javascript-payloads-with-code-splitting
+
+## Redirects for Updates content migrated to web.dev
+
+- from: /web/updates/2011/11/Quota-Management-API-Fast-Facts
+  to: https://web.dev/storage-for-the-web/
+
+- from: /web/updates/2014/11/Support-for-installable-web-apps-with-webapp-manifest-in-chrome-38-for-Android
+  to: https://web.dev/customize-install/
+
+- from: /web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android
+  to: https://web.dev/customize-install/
+
+- from: /web/updates/2015/08/using-manifest-to-set-sitewide-theme-color
+  to: https://web.dev/add-manifest/#splash-screen
+
+- from: /web/updates/2015/09/using-manifest-to-set-sitewide-theme-color
+  to: https://web.dev/add-manifest/#splash-screen
+
+- from: /web/updates/2015/10/display-mode
+  to: https://web.dev/add-manifest/#display
+
+- from: /web/updates/2015/10/splashscreen
+  to: https://web.dev/add-manifest/#splash-screen
+
+- from: /web/updates/2016/06/persistent-storage
+  to: https://web.dev/persistent-storage/
+
+- from: /web/updates/2016/09/navigator-share
+  to: https://web.dev/web-share/
+
+- from: /web/updates/2016/10/navigator-share
+  to: https://web.dev/web-share/
+
+- from: /web/updates/2016/10/resizeobserver
+  to: https://web.dev/resize-observer
+
+- from: /web/updates/2017/02/improved-add-to-home-screen
+  to: https://web.dev/customize-install/
+
+- from: /web/updates/2017/04/getinstalledrelatedapps
+  to: https://web.dev/get-installed-related-apps/
+
+- from: /web/updates/2017/06/user-centric-performance-metrics
+  to: https://web.dev/user-centric-performance-metrics/
+
+- from: /web/updates/2018/05/dpwa
+  to: https://web.dev/progressive-web-apps/
+
+- from: /web/updates/2018/05/first-input-delay
+  to: https://web.dev/fid/
+
+- from: /web/updates/2018/11/writable-files
+  to: https://web.dev/native-file-system/
+
+- from: /web/updates/2018/12/badging-api
+  to: https://web.dev/badging-api/
+
+- from: /web/updates/2018/12/get-installed-related-apps
+  to: https://web.dev/get-installed-related-apps/
+
+- from: /web/updates/2018/12/wakelock
+  to: https://web.dev/wakelock/
+
+- from: /web/updates/2018/12/web-share-target
+  to: https://web.dev/web-share-target/
+
+- from: /web/updates/2019/01/shape-detection
+  to: https://web.dev/shape-detection/
+
+- from: /web/updates/2019/02/trusted-types
+  to: https://web.dev/trusted-types/
+
+- from: /web/updates/2019/03/prefers-reduced-motion
+  to: https://web.dev/prefers-reduced-motion/
+
+- from: /web/updates/2019/05/web-share-files
+  to: https://web.dev/web-share/#sharing-files
+
+- from: /web/updates/2019/07/image-support-for-async-clipboard
+  to: https://web.dev/image-support-for-async-clipboard/
+
+- from: /web/updates/2019/08/contact-picker
+  to: https://web.dev/contact-picker/
+
+- from: /web/updates/2019/08/native-file-system
+  to: https://web.dev/native-file-system/
+
+- from: /web/updates/2019/08/periodic-background-sync
+  to: https://web.dev/periodic-background-sync/
+
+## Redirects for PWA content migrated to web.dev
+
+- from: /web/g-co/dpwa
+  to: https://web.dev/progressive-web-apps/
+
+- from: /web/progressive-web-apps/checklist
+  to: https://web.dev/pwa-checklist/
+
+- from: /web/progressive-web-apps/...
+  to: https://web.dev/progressive-web-apps/
+
+- from: /web/fundamentals/app-install-banners/
+  to: https://web.dev/customize-install/
+
+- from: /web/fundamentals/app-install-banners/promoting-install-mobile
+  to: https://web.dev/promote-install/
+
+- from: /web/fundamentals/web-app-manifest/...
+  to: https://web.dev/add-manifest/
+
+
+#
+# Other redirects
+#
+
+- from: /web/updates/2016/02/save-data
+  to: /web/fundamentals/performance/optimizing-content-efficiency/save-data

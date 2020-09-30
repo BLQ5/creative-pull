@@ -1,0 +1,255 @@
+# ATTENTION - changes made to this file not in GitHub will be over written!
+project_path: /web/_project.yaml
+book_path: /web/_book.yaml
+landing_page:
+  body_class: hide-devsite-banner
+  meta_tags:
+  - name: google-site-verification
+    content: gfXglzZkMnMmYyTURrVdYisraxO03w5_twQ-DO6QXC8
+  custom_css_path: /web/styles/wf-landing.css
+
+  header:
+    custom_html: >
+        <div class="devsite-collapsible-section">
+          <div class="devsite-header-background">
+            <div class="wf-hero-flex">
+              <div class="wf-hero-flex-item wf-hero-webfu">
+                  <img src="/web/images/web-fundamentals-icon192x192.png">
+                  <h3>Web Fundamentals</h3>
+                  <p>
+                    Tutorials, guides, and best practices for building the next
+                    generation of web experiences.
+                  </p>
+                  <a class="button gc-analytics-event" data-category="webFu" data-label="fundamentals-landing" data-action="web-home" href="/web/fundamentals/">Get started</a>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="wf-hero-flex-item wf-hero-tools">
+                  <img src="/web/images/tool_icon.png">
+                  <h3>Tools</h3>
+                  <p>
+                    <a href="/web/tools/chrome-devtools/" class="gc-analytics-event" data-category="webFu" data-label="devtools-landing" data-action="web-home">Chrome DevTools</a>,
+                    <a href="/web/tools/lighthouse/" class="gc-analytics-event" data-category="webFu" data-label="lighthouse-landing" data-action="web-home">Lighthouse</a>,
+                    <a href="/web/tools/workbox/" class="gc-analytics-event" data-category="webFu" data-label="workbox-landing" data-action="web-home">Workbox</a>,
+                    and more tools to make your life easier and improve your
+                    development artistry.
+                  </p>
+                  <a class="button gc-analytics-event" href="/web/tools/" data-category="webFu" data-label="tools-landing" data-action="web-home">Learn more</a>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+  rows:
+
+  # - classname: devsite-landing-row-100
+  #   background: grey
+  #   items:
+  #   - youtube_id: nImH_dq1NpM
+
+  - items:
+    - image_path: /web/images/wd-live-wide.png
+      image_left: true
+      description: >
+        <b class="goog-font">web.dev LIVE</b> is now over! Head to
+        <a href="https://web.dev/live/" target="_blank" rel="nofollow">web.dev/live</a>
+        to watch all the sessions, see top Q&amp;A and more from our three
+        day digital event for web developers.
+      buttons:
+      - label: Watch now
+        path: https://web.dev/live/
+        classname: button button-primary
+      path: https://web.dev/live/
+
+  - classname: wf-landing-row
+    items:
+    - heading: Move to HTTPS
+      image_path: /web/images/content-https-2x.jpg
+      description: >
+        HTTPS allows users to securely connect to your website or app. Set up
+        HTTPS to protect the integrity and security of your users.
+      path: /web/fundamentals/security/encrypt-in-transit/why-https
+      path_attributes:
+      - name: class
+        value: gc-analytics-event
+      - name: data-category
+        value: webFu
+      - name: data-label
+        value: fundamentals-https
+      - name: data-action
+        value: web-home
+      buttons:
+      - label: Get HTTPS
+        path: /web/fundamentals/security/encrypt-in-transit/why-https
+        classname: button button-primary
+        attributes:
+        - name: class
+          value: gc-analytics-event
+        - name: data-category
+          value: webFu
+        - name: data-label
+          value: fundamentals-https
+        - name: data-action
+          value: web-home
+
+    - heading: Progressive Web Apps
+      description: >
+        A new class of web app that is fast, integrated, reliable, and engaging.
+      image_path: /web/images/content-responsive-2x.jpg
+      path: https://web.dev/progressive-web-apps/
+      path_attributes:
+      - name: class
+        value: gc-analytics-event
+      - name: data-category
+        value: webFu
+      - name: data-label
+        value: pwa-landing
+      - name: data-action
+        value: web-home
+      buttons:
+      - label: Get started
+        path: https://web.dev/progressive-web-apps/
+        classname: button button-primary
+        attributes:
+        - name: class
+          value: gc-analytics-event
+        - name: data-category
+          value: webFu
+        - name: data-label
+          value: pwa-landing
+        - name: data-action
+          value: web-home
+
+    - heading: Load instantly
+      description: >
+        Users don't have the patience to wait for sites that can't deliver
+        content quickly.
+      image_path: /web/images/content-performance-2x.jpg
+      path: /web/fundamentals/performance/
+      path_attributes:
+      - name: class
+        value: gc-analytics-event
+      - name: data-category
+        value: webFu
+      - name: data-label
+        value: fundamentals-instant
+      - name: data-action
+        value: web-home
+      buttons:
+      - label: Get fast
+        path: /web/fundamentals/performance/
+        classname: button button-primary
+        attributes:
+        - name: class
+          value: gc-analytics-event
+        - name: data-category
+          value: webFu
+        - name: data-label
+          value: fundamentals-instant
+        - name: data-action
+          value: web-home
+
+
+  - heading: Updates
+    classname: wf-updates-container
+    description: Stay up to date on new web platform features, changes to Chrome and more.
+    columns:
+    - description: >
+        {% include "web/_index-latest-show.html" %}
+
+    - description: >
+        {% include "web/_index-latest-updates.html" %}
+
+
+  - classname: wf-landing-row
+    items:
+    - heading: Get involved
+      description: >
+        Check the state of existing bugs and provide feedback for web platform features.
+      custom_image:
+        background: google-blue
+        icon_name: how_to_reg
+      path: /web/feedback/
+      path_attributes:
+      - name: class
+        value: gc-analytics-event
+      - name: data-category
+        value: webFu
+      - name: data-label
+        value: feedback-landing
+      - name: data-action
+        value: web-home
+      buttons:
+      - label: Get involved
+        path: /web/feedback/
+        classname: button button-primary
+        attributes:
+        - name: class
+          value: gc-analytics-event
+        - name: data-category
+          value: webFu
+        - name: data-label
+          value: feedback-landing
+        - name: data-action
+          value: web-home
+
+    - heading: Training
+      description: >
+        Level-up your skills with in-person and online training courses for web developers.
+      custom_image:
+        background: google-blue
+        icon_name: school
+      path: /web/ilt/
+      path_attributes:
+      - name: class
+        value: gc-analytics-event
+      - name: data-category
+        value: webFu
+      - name: data-label
+        value: training-landing
+      - name: data-action
+        value: web-home
+      buttons:
+      - label: Start learning
+        path: /web/ilt/
+        classname: button button-primary
+        attributes:
+        - name: class
+          value: gc-analytics-event
+        - name: data-category
+          value: webFu
+        - name: data-label
+          value: training-landing
+        - name: data-action
+          value: web-home
+
+    - heading: Case studies
+      description: >
+        Learn why and how other developers have used the web to create amazing
+        web experiences for their users.
+      custom_image:
+        background: google-blue
+        icon_name: trending_up
+      path: /web/showcase/
+      path_attributes:
+      - name: class
+        value: gc-analytics-event
+      - name: data-category
+        value: webFu
+      - name: data-label
+        value: showcase-landing
+      - name: data-action
+        value: web-home
+      buttons:
+      - label: See more
+        path: /web/showcase/
+        classname: button button-primary
+        attributes:
+        - name: class
+          value: gc-analytics-event
+        - name: data-category
+          value: webFu
+        - name: data-label
+          value: showcase-landing
+        - name: data-action
+          value: web-home
